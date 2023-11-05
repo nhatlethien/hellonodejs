@@ -1,0 +1,7 @@
+const path = require('path');
+module.exports = { //các file và forder được tạo 
+  'config': path.resolve('./src/config', 'config.json'),
+  'migrations-path': path.resolve('./src', 'migrations'),
+  'models-path': path.resolve('./src', 'models'),
+  'seeders-path': path.resolve('./src', 'seeders')
+}
