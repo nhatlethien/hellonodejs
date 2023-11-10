@@ -1,5 +1,5 @@
 'use strict';
-
+require('dotenv').config(); //phải thêm lệnh này để có thể sử dụng process.env.ten_bien
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
